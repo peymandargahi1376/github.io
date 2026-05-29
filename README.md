@@ -1,59 +1,133 @@
-<!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Privacy Policy — QR Scanner: Card & Generator</title>
 <style>
-  body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; max-width: 760px; margin: 0 auto; padding: 2rem 1.5rem; color: #1a1a1a; line-height: 1.7; }
-  h1 { font-size: 1.75rem; font-weight: 600; margin-bottom: 0.25rem; }
-  h2 { font-size: 1.1rem; font-weight: 600; margin-top: 2rem; color: #111; }
-  p, li { font-size: 0.95rem; color: #333; }
-  ul { padding-left: 1.25rem; }
-  .meta { font-size: 0.85rem; color: #888; margin-bottom: 2.5rem; }
-  a { color: #2563eb; }
+  * { box-sizing: border-box; }
+  body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif; max-width: 800px; margin: 0 auto; padding: 2.5rem 1.5rem; color: #1a1a1a; line-height: 1.75; background: #fff; }
+  h1 { font-size: 2rem; font-weight: 700; margin-bottom: 0.25rem; letter-spacing: -0.02em; }
+  h2 { font-size: 1.15rem; font-weight: 600; margin-top: 2.25rem; margin-bottom: 0.5rem; color: #111; padding-bottom: 6px; border-bottom: 1px solid #f0f0f0; }
+  p { font-size: 0.95rem; color: #374151; margin: 0.75rem 0; }
+  ul { padding-left: 1.5rem; margin: 0.75rem 0; }
+  li { font-size: 0.95rem; color: #374151; margin-bottom: 6px; }
+  .meta { font-size: 0.85rem; color: #9ca3af; margin-bottom: 2.5rem; padding-bottom: 1.5rem; border-bottom: 1px solid #f0f0f0; }
+  a { color: #2563eb; text-decoration: none; }
+  a:hover { text-decoration: underline; }
+  .highlight-box { background: #f0fdf4; border-left: 3px solid #16a34a; padding: 0.75rem 1rem; border-radius: 0 6px 6px 0; margin: 1rem 0; }
+  .highlight-box p { color: #166534; margin: 0; font-size: 0.9rem; }
+  table { width: 100%; border-collapse: collapse; font-size: 0.9rem; border: 1px solid #e5e7eb; border-radius: 8px; overflow: hidden; margin: 1rem 0; }
+  th { background: #f9fafb; padding: 10px 14px; text-align: left; border-bottom: 1px solid #e5e7eb; font-weight: 600; font-size: 0.85rem; color: #6b7280; text-transform: uppercase; letter-spacing: 0.05em; }
+  td { padding: 10px 14px; border-bottom: 1px solid #f3f4f6; vertical-align: top; }
+  tr:last-child td { border-bottom: none; }
+  footer { margin-top: 3rem; padding-top: 1.5rem; border-top: 1px solid #f0f0f0; font-size: 0.8rem; color: #9ca3af; }
   @media (prefers-color-scheme: dark) {
-    body { background: #111; color: #eee; }
-    h2 { color: #fff; }
-    p, li { color: #ccc; }
-    .meta { color: #666; }
+    body { background: #0f0f0f; color: #e5e7eb; }
+    h1, h2 { color: #f9fafb; }
+    p, li { color: #d1d5db; }
+    .meta { color: #6b7280; border-color: #1f2937; }
+    h2 { border-color: #1f2937; }
+    a { color: #60a5fa; }
+    .highlight-box { background: #052e16; border-color: #16a34a; }
+    .highlight-box p { color: #86efac; }
+    table { border-color: #1f2937; }
+    th { background: #111827; color: #9ca3af; border-color: #1f2937; }
+    td { border-color: #1f2937; }
+    footer { border-color: #1f2937; }
   }
+  @media (max-width: 600px) { body { padding: 1.5rem 1rem; } h1 { font-size: 1.5rem; } }
 </style>
 </head>
 <body>
+
 <h1>Privacy Policy</h1>
-<p class="meta">App: <strong>QR Scanner: Card & Generator</strong> &nbsp;·&nbsp; Developer: AVA-GROUP &nbsp;·&nbsp; Last updated: May 29, 2026</p>
-
-<p>This Privacy Policy describes how AVA-GROUP ("we", "us", or "our") handles information in connection with the <strong>QR Scanner: Card & Generator</strong> mobile application.</p>
-
-
-    <h2>Data Collection and Use</h2>
-    <p>QR Scanner: Card & Generator does <strong>not</strong> collect, store, or transmit any personal data to external servers. All scan history and QR code data is stored <strong>locally on your device only</strong> and is never shared with us or any third party.</p>
-    <h2>Third-Party Services</h2>
-    <p>We do not use any third-party analytics, advertising SDKs, or tracking libraries. No data is shared with third parties.</p>
+<div class="meta">
+  <strong>QR Scanner: Card & Generator</strong> by AVA-GROUP &nbsp;·&nbsp; Effective date: May 29, 2026
   
+</div>
+
+<p>This Privacy Policy explains how <strong>AVA-GROUP</strong> ("we", "us", or "our") collects, uses, and protects information in connection with your use of the <strong>QR Scanner: Card & Generator</strong> mobile application (the "App") on Android devices.</p>
+<p>By downloading or using the App, you agree to the practices described in this policy. If you do not agree, please do not use the App.</p>
+
+<div class="highlight-box"><p>Privacy-first design: QR Scanner: Card & Generator operates entirely offline. No personal data is collected, transmitted, or stored on external servers. Everything stays on your device.</p></div>
+
+<h2>1. What the App does</h2>
+<p>QR Scanner: Card & Generator is a QR code and barcode utility application that provides the following features:</p>
+<ul>
+<li>Real-time scanning of QR codes and barcodes using the device camera</li><li>Scanning and parsing business cards to extract contact information locally</li><li>Creation of custom QR codes for URLs, text, Wi-Fi credentials, contacts, calendar events, and more</li><li>Local scan history with full-text search, stored entirely on your device</li><li>Generation of Wi-Fi QR codes using credentials you provide — credentials never leave your device</li><li>Dark and light display modes following your system preferences</li><li>Full offline functionality — no internet connection required for any core feature</li>
+</ul>
+
+<h2>2. Information we collect</h2>
+
+<p>We do not collect any personal information. The App does not require you to create an account, does not request your name or email address, and does not transmit any data to our servers or to any third party.</p>
+<p>Data generated by your use of the App — such as scan history and created QR codes — exists solely on your device's local storage and is under your complete control.</p>
 
 
-    <h2>Permissions We Request</h2>
-    <ul><li><strong>Camera</strong>: Used solely to scan QR codes and barcodes in real time. No images or video are stored or transmitted.</li><li><strong>Contacts</strong>: Accessed only when you explicitly create a contact QR code. We do not store or transmit your contacts.</li><li><strong>Location</strong>: Used only to auto-fill location-based QR codes when you request it. Location data is never stored or shared.</li></ul>
+
+    <h2>3. Device permissions</h2>
+    <p>The following permissions are requested and used strictly for the purposes described below. No permission is used for tracking, profiling, or data collection.</p>
+    <table style="width:100%; border-collapse:collapse; font-size:0.9rem; border:0.5px solid #e5e7eb; border-radius:8px; overflow:hidden; margin: 1rem 0;">
+      <thead><tr style="background:#f9fafb;"><th style="padding:8px 12px; text-align:left; border-bottom:0.5px solid #e5e7eb;">Permission</th><th style="padding:8px 12px; text-align:left; border-bottom:0.5px solid #e5e7eb;">Purpose</th></tr></thead>
+      <tbody><tr><td style="padding:8px 12px; font-weight:500; white-space:nowrap; border-bottom:0.5px solid #e5e7eb;">CAMERA</td><td style="padding:8px 12px; border-bottom:0.5px solid #e5e7eb;">Required to capture QR codes, barcodes, and business cards using the device camera. No images or video frames are stored or transmitted at any point.</td></tr><tr><td style="padding:8px 12px; font-weight:500; white-space:nowrap; border-bottom:0.5px solid #e5e7eb;">READ CONTACTS</td><td style="padding:8px 12px; border-bottom:0.5px solid #e5e7eb;">Accessed only when you explicitly choose to generate a contact QR code from an existing contact. Contact data is processed locally and never stored in the app database or transmitted externally.</td></tr><tr><td style="padding:8px 12px; font-weight:500; white-space:nowrap; border-bottom:0.5px solid #e5e7eb;">READ / WRITE CALENDAR</td><td style="padding:8px 12px; border-bottom:0.5px solid #e5e7eb;">Used only when you explicitly add a scanned calendar event to your calendar. The app reads only the fields necessary to create the event and does not access any existing calendar data.</td></tr><tr><td style="padding:8px 12px; font-weight:500; white-space:nowrap; border-bottom:0.5px solid #e5e7eb;">LOCATION</td><td style="padding:8px 12px; border-bottom:0.5px solid #e5e7eb;">Used only when you explicitly request to embed your current location into a QR code. Location data is used once, in-memory, and is never stored or transmitted.</td></tr><tr><td style="padding:8px 12px; font-weight:500; white-space:nowrap; border-bottom:0.5px solid #e5e7eb;">FLASHLIGHT</td><td style="padding:8px 12px; border-bottom:0.5px solid #e5e7eb;">Used to activate the device torch to illuminate subjects in low-light conditions during scanning. Controlled entirely by the user through the in-app toggle.</td></tr></tbody>
+    </table>
+
+
+    <h2>4. Data storage and offline operation</h2>
+    <p>QR Scanner: Card & Generator is designed as a fully offline application. All data — including your scan history, created QR codes, and preferences — is stored <strong>locally on your device only</strong> using the operating system's local storage APIs. This data never leaves your device and is never transmitted to our servers or any third party.</p>
+    <p>You may clear all locally stored data at any time by clearing the app's data through your device settings, or by using the clear history option within the app.</p>
+
+<h2>5. Data sharing and third parties</h2>
+
+<p>We do not share, sell, rent, or disclose any user data to third parties — because we do not collect any. The App contains no third-party SDKs for advertising, analytics, or tracking.</p>
+
+
+
+
+
+
+
+<h2>6. Data retention</h2>
+<p>Since all app data is stored locally on your device, retention is controlled entirely by you. You can delete scan history, created QR codes, or all app data at any time through the app's settings or through your device's app management settings. Uninstalling the App removes all locally stored data.</p>
+
+
+<h2>7. Security</h2>
+<p>We take the security of your data seriously. Since QR Scanner: Card & Generator processes all data locally on your device:</p>
+<ul>
+  <li>No data is transmitted over the network by the App itself, eliminating network-level security risks.</li>
+  <li>Data is stored using the Android operating system's standard local storage mechanisms, which are sandboxed from other applications.</li>
+  <li>The App does not use any external databases or cloud storage for user content.</li>
+</ul>
+<p>We recommend keeping your device's operating system up to date and using a device lock screen to protect all apps on your device.</p>
+
+<h2>8. Your rights and choices</h2>
+<p>You have full control over your data:</p>
+<ul>
+  <li><strong>Access and deletion</strong>: All your data is on your device. You can view and delete it at any time within the App or through device settings.</li>
+  <li><strong>Permission revocation</strong>: You can revoke any permission granted to the App at any time through your device's Settings → Apps → QR Scanner: Card & Generator → Permissions.</li>
+  <li><strong>Complete data removal</strong>: Uninstalling the App removes all locally stored data permanently.</li>
+</ul>
+
+
+
+
+
+<h2>9. Changes to this Privacy Policy</h2>
+<p>We may update this Privacy Policy from time to time to reflect changes in the App, applicable laws, or our practices. When we make material changes, we will update the effective date at the top of this document. For significant changes, we will provide notice within the App. Your continued use of the App after any change constitutes your acceptance of the updated policy.</p>
+<p>We encourage you to review this policy periodically.</p>
+
+<h2>10. Contact us</h2>
+<p>If you have any questions, concerns, or requests regarding this Privacy Policy or our data practices, please contact us:</p>
+<ul>
+  <li><strong>Email</strong>: <a href="mailto:privacy@v2hub.com">privacy@v2hub.com</a></li>
   
-
-<h2>Scan History</h2>
-<p>Your scan history is stored locally on your device. You can clear it at any time from within the app. This data is never transmitted to us or any third party.</p>
-
-
-    <h2>Children's Privacy</h2>
-    <p>QR Scanner: Card & Generator is designed to be safe for users of all ages, including children under 13. We do not knowingly collect any personal information from children. The app does not contain advertising, does not link to social media, and does not include any in-app purchases. All features operate entirely offline.</p>
   
+</ul>
+<p>We will respond to all enquiries within 30 days.</p>
 
-<h2>Security</h2>
-<p>Since QR Scanner: Card & Generator operates entirely offline and stores data only on your device, your information remains under your control at all times.</p>
-
-<h2>Changes to This Policy</h2>
-<p>We may update this Privacy Policy occasionally. When we do, we will revise the "Last updated" date at the top of this page. We encourage you to review this page periodically.</p>
-
-<h2>Contact Us</h2>
-<p>If you have any questions about this Privacy Policy, please contact us at <a href="mailto:privacy@v2hub.com">privacy@v2hub.com</a>.</p>
+<footer>
+  <p>© 2026 AVA-GROUP. All rights reserved. &nbsp;·&nbsp; QR Scanner: Card & Generator — Initial release 2026</p>
+  <p>This Privacy Policy was last updated on May 29, 2026.</p>
+</footer>
 
 </body>
 </html>
